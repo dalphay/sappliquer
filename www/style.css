@@ -1,0 +1,35 @@
+section {
+    position: relative;
+}
+#img {
+    background-image: url("images/Mec.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 92px;
+    left: 280px;
+    height: 512px;
+    width: 225px;
+    animation: frapper1 2s 1 steps(8);
+    color : blue ;
+}
+@keyframes frapper1 {
+    from {
+        background-position-x: 0;
+    } 
+    to {
+        background-position-x: -2048px;
+    }
+}
+
+
+
+#btncat {
+    color: rgb(253, 2, 2);
+    border-radius: 7px;
+    font-size: 32px;
+    background-color: rgb(9, 123, 158);    
+}
+#bouton {
+    display: flex;
+    justify-content: flex-end;
+}
